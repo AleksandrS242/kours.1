@@ -1,5 +1,5 @@
 let money = "dolars";
-let income = "good";
+let income = "xa-xa";
 let addExpenses = "";
 let deposit = "";
 let mission= "";
