@@ -15,7 +15,7 @@ console.log("Период равен" + period + " месяцев. " +
 console.log(addExpenses.toLowerCase());
 console.log(addExpenses.split(', '));
 
-let budgetDay = 30;
-console.log(budgetDay);
+let budgetDay = money/30;
+console.log(Math.round(budgetDay));
   
   
