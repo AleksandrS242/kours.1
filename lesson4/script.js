@@ -1,4 +1,4 @@
-"use strict";
+use strict";
 
 let money = +prompt("Ваш месячный доход?", 1200),
     income = "Распродажа",
@@ -48,9 +48,11 @@ function addExp() {
 addExp();
 
 function getStatusIncome() {
-      console.log(" Вызов!!! ");
+      console.log(" Вызов! ");
 }
 getStatusIncome();
+
+
 // let budgetDay = money / 30;
 
 
@@ -74,3 +76,7 @@ getStatusIncome();
 // } else if (budgetDay < 0) {
 //       console.log("Что то пошло не так");
 // }
+
+
+
+
