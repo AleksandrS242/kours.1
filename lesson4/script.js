@@ -1,4 +1,4 @@
-use strict";
+"use strict";
 
 let money = +prompt("Ваш месячный доход?", 1200),
     income = "Распродажа",
@@ -33,7 +33,7 @@ let accumulatedMonth = getAccumulatedMonth();
 console.log(accumulatedMonth);
 
 function getTargetMonth() {
-      console.log("Период для цели: " + (mission / accumulatedMonth));
+      console.log("Период для цели: " + Math.ceil(mission / accumulatedMonth));
 } 
 getTargetMonth();
 
