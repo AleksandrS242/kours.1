@@ -9,10 +9,10 @@ function searchNumber (min, max) {
         if (userNumber) {
  
             if (userNumber < randomNumber ) {
-                alert(`Больше`);
+                alert(`Загаданное число больше`);
             }
             else if (userNumber > randomNumber) {
-                alert(`Меньше`);  
+                alert(`Загаданное число меньше`);  
             }
             else if (userNumber == randomNumber)  {
                 alert(`Правильно!`);
@@ -24,6 +24,8 @@ function searchNumber (min, max) {
                     break;
                 }
                 
+            } else {
+                alert('Необходимо ввести число!')
             }
  
         }
@@ -36,3 +38,5 @@ function searchNumber (min, max) {
 }
  
 searchNumber(1 , 100);
+
+
