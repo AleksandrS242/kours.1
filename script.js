@@ -24,18 +24,18 @@ let isNumber = function (n) {
   let appData = {
     budget:  money,
     budgetDay: 0,
-      budgetMonth: 0,
+    budgetMonth: 0,
     expensesMonth: 0,
     mission: 600000,
     period: 3,
     percentDeposit: 0,
     moneyDeposit: 0,
-        income: {},
-        addIncome: [],
-        expenses: {},
-        addExpenses: [],
-        deposit: false,
-        asking: function () {
+    income: {},
+    addIncome: [],
+    expenses: {},
+    addExpenses: [],
+    deposit: false,
+    asking: function () {
           if(confirm("Есть ли у вас дополнительный заработок?")){
             let itemIncome;
             let cashIncome;
